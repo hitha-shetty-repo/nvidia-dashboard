@@ -1009,19 +1009,6 @@ const NvidiaGPUShowcase = () => {
         </>
       )}
 
-      {/* Performance Stats */}
-      <div className="absolute bottom-6 right-6 bg-gray-900 bg-opacity-90 backdrop-blur-md rounded-lg p-4 border border-teal-700" style={{ pointerEvents: 'auto' }}>
-        <div className="grid grid-cols-2 gap-4">
-          <div className="text-center">
-            <p className="text-green-400 font-bold text-3xl">99.97%</p>
-            <p className="text-gray-400 text-xs uppercase">Uptime</p>
-          </div>
-          <div className="text-center">
-            <p className="text-green-400 font-bold text-3xl">47-52%</p>
-            <p className="text-gray-400 text-xs uppercase">Power Cut</p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
